@@ -12,3 +12,5 @@ This can be seen by refreshing the page multiple times and looking at the consol
 > Logger id: 2. => from Client
 
 along with a "from HomeController" log with incrementing logger id. This shows that a new `ILogger` is injected into HomeController each request, but the same `ILogger` is injected into `Client`.
+
+To run the project, open in Visual Studio 2017 (probably works in other versions too) and Run the WebApplication2 project.
